@@ -1,0 +1,26 @@
+Time (%),Total Time (ns),Instances,Avg (ns),Med (ns),Min (ns),Max (ns),StdDev (ns),Name
+36.0,19109077857,7154,2671104.0,1886093.0,445603,61482460,5662317.2,"matmul_forward_kernel4(float *, const float *, const float *, const float *, int, int)"
+15.7,8329032029,74,112554486.9,109507377.5,106445824,167141279,8454560.4,"adamw_kernel2(float *, float *, float *, float *, long, float, float, float, float, float, float, float)"
+7.4,3946105444,1850,2133030.0,1315129.5,729894,101354970,4777085.0,void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_128x128_32x3_nn_align4>(T1::Params)
+5.6,2968912863,3528,841528.6,958119.0,233698,3298938,307656.5,void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_64x64_16x6_nn_align4>(T1::Params)
+5.4,2857063341,962,2969920.3,1353434.0,964615,27138836,5495382.2,void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_256x128_16x3_nt_align4>(T1::Params)
+5.0,2654397337,2640,1005453.5,959544.0,922406,2213521,107582.4,void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_256x64_16x4_tn_align4>(T1::Params)
+4.6,2455540312,2664,921749.4,1003399.0,247362,2977047,432639.2,void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_128x128_32x3_nt_align4>(T1::Params)
+3.3,1765817001,1776,994266.3,1000039.5,922088,2793751,104712.4,void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_64x64_16x6_nt_align4>(T1::Params)
+3.2,1696384883,1752,968256.2,891223.0,848518,8469570,409691.6,"softmax_forward_kernel5(float *, float, const float *, int, int)"     
+2.4,1261274898,888,1420354.6,1378299.0,947368,2323888,131216.2,void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_64x256_16x4_nn_align4>(T1::Params)
+2.3,1225897864,888,1380515.6,1249529.5,1227721,16941539,863364.4,"softmax_autoregressive_backward_kernel(float *, const float *, const float *, int, int, int, float)"
+2.1,1100045947,146,7534561.3,7205874.0,7023412,17944267,1121790.1,"fused_classifier_kernel3(float *, float *, float *, const float *, const int *, int, int, int, int)"
+1.4,749374618,1752,427725.2,395586.5,359619,5768525,196207.4,"gelu_forward_kernel(float *, const float *, int)"
+1.1,579402851,888,652480.7,594677.0,585157,5639368,348104.7,"gelu_backward_kernel(float *, const float *, const float *, int)"       
+1.1,566254737,1752,323204.8,292162.0,260226,5141575,269762.4,"permute_kernel(float *, float *, float *, const float *, int, int, int, int)"
+0.9,482800525,3552,135923.6,182577.0,18016,3758462,128411.0,"matmul_backward_bias_kernel4(float *, const float *, int, int, int)"
+0.6,339111801,3504,96778.5,95297.0,75968,5020103,148463.4,"residual_forward_kernel(float *, float *, float *, int)"
+0.6,329954496,1850,178353.8,171281.5,166594,3511324,101500.7,"layernorm_backward_kernel2(float *, float *, float *, const float *, const float *, const float *, const float *, const float *, int, int, int)"
+0.5,243417420,888,274118.7,253186.0,247074,3300024,185094.2,"permute_kernel_backward(float *, const float *, const float *, const float *, int, int, int, int)"
+0.4,204623643,3650,56061.3,52768.5,32096,4324546,89464.2,"layernorm_forward_kernel3(float *, float *, float *, const float *, const float *, const float *, int, int)"
+0.2,123226544,1752,70334.8,64592.5,51904,4629605,160668.9,"unpermute_kernel(float *, float *, int, int, int, int)"
+0.1,79160426,888,89144.6,83040.5,70561,4466916,147120.0,"unpermute_kernel_backward(float *, const float *, int, int, int, int)"      
+0.0,8414275,146,57632.0,56880.0,40160,73729,5152.9,"encoder_forward_kernel3(float4 *, const int *, const float4 *, const float4 *, int, int, int)"
+0.0,5577926,74,75377.4,74704.0,71777,86144,2946.8,"encoder_backward_kernel(float *, float *, const float *, const int *, int, int, int)"
+
