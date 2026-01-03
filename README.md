@@ -169,3 +169,8 @@ nsys profile --trace=cuda,nvtx --output=benchmark_bf16 .\train_gpt2mixed.exe
 - **Base Repository**: [llm.c](https://github.com/karpathy/llm.c) by Andrej Karpathy
 - **WMMA API**: [NVIDIA CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#wmma)
 
+---
+
+## License
+
+MIT (inherited from llm.c)
